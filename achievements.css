@@ -1,0 +1,28 @@
+body{
+  background-color: #0984e3;
+}
+div{
+  display: flex;
+  margin: 1rem;
+}
+img{
+  margin: 0px 10px;
+}
+div:nth-of-type(even) img{
+  order: 3;
+}
+.help{
+  margin:auto;
+  width: 100%;
+  background-position: top;
+  background-size: cover;
+  height: 100px;
+
+}
+a{
+
+  float: right;
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}

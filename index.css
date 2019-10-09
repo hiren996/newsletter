@@ -1,0 +1,49 @@
+li{
+  float: right;
+      border-radius: 50px;
+
+}
+li:hover{  
+  background: rgb(102, 100, 100);
+  transition-duration: 1500ms;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    
+}
+
+
+    ul { 
+        list-style-type: none;
+        margin:-60px;
+        padding: 0;
+        overflow: hidden;
+        width: 100%;
+        text-transform: uppercase;
+        
+        
+      }
+
+li a {
+        display: block;
+        color:white;
+        text-align: left;
+        padding: 18px 18px;
+        text-decoration: none;
+        border-radius: 10px;
+      }
+      
+.header{
+  background: rgba(0, 0, 0, 0.3); 
+ 
+}
+ul li.active a{
+  border-radius: 50px;
+  background: rgb(0, 0, 0,0.5);
+  transition-duration: 1500ms;
+
+
+}
